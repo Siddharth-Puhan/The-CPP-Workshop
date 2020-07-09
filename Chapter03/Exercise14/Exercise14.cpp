@@ -29,8 +29,7 @@ int main()
          {
             if (userIndex >= 0 && userIndex < NAME_COUNT)
               {
-                 std::cout << "User " << userIndex << " = "<<
-                 names[userIndex] << std::endl;
+                 std::cout << "User " << userIndex << " = "<< names[userIndex][0]<<" " << names[userIndex][1]<< std::endl;
               }
             else
              {
